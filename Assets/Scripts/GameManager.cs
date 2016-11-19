@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
         UpdateSoundsLists();
 
-        //InvokeRepeating("GameLoop", 0, 2f);
+        InvokeRepeating("GameLoop", 0, 2f);
     }
 
     // Update is called once per frame
